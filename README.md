@@ -1,5 +1,5 @@
 # Nty
-A simple (https://ntfy.sh/)[https://ntfy.sh/] wrapper written in Go.
+A simple https://ntfy.sh/ wrapper written in Go.
 
 # Use case
 ```bash
