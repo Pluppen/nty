@@ -14,6 +14,7 @@ type Notification struct {
 	Priority string
 	Tags string
 	Destination string
+	Server string
 }
 
 func main() {
@@ -40,6 +41,7 @@ func main() {
 		Priority: *priority,
 		Tags: *tags,
         Destination: *dest,
+        Server: *server,
 	}
 
     sendNotification(*notification)
